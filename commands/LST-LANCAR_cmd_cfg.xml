@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Services>
+
+     <Service>
+          <Commond code = "LST-LANCAR::" key_prams="1-OIP;1-OPT;2" key_replace = "OIP;OPT;M">
+                <CommodResult>
+   A20937319 %{CurrentTime}%
+M  %{M}% COMPLD
+   EN=0   ENDESC=No Error
+    
+   totalrecord=1
+ 
+  list of LAN port rate-limit info
+   -----------------------------------------------------
+   RateLimitUs  RateLimitDs
+   0  0
+   -----------------------------------------------------
+;
+                </CommodResult> 
+       </Commond>
+      </Service>
+
+</Services>

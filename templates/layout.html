@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TL1模拟器</title>
+    <link rel=stylesheet type="text/css" href="static/bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="static/bootstrap/js/jquery.min.js"></script>
+    <script type="text/javascript" src="static/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class=container>
+        <div class="center-block"><h1>TL1 命令列表</h1>
+            <a class="btn btn-default" href="{{ url_for('reload') }}">重载配置</a>
+        </div>
+        {% block body %}{% endblock %}
+    </div>
+</body>
+</html>

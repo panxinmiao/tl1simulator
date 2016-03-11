@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Services>
+
+     <Service>
+      	<Commond code = "LOGIN::" key_prams="1-UN;1-PWD" >
+                <CommodResult>
+
+   FH_10.235.133.73 %{CurrentTime}%
+M  1 COMPLD
+   EN=0   ENDESC=No Error
+;
+                </CommodResult>
+      	</Commond>       	
+      </Service>
+
+</Services>

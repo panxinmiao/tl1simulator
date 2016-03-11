@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Services>
+
+     <Service>
+         
+   <Commond code = "LST-MGINFO::" key_prams="1-OIP;2" key_replace = "OIP;M">
+                <CommodResult>
+   A20937319 %{CurrentTime}%
+M  %{M}% COMPLD
+   EN=0   ENDESC=No Error
+    
+   totalrecord=1
+ 
+    list of MG port info
+   -----------------------------------------------------
+   MGID  OperState
+   1  Registering
+   -----------------------------------------------------
+;
+                </CommodResult> 
+       </Commond>
+       
+<Commond code = "LST-MGINFO::" key_prams="1-OID;1-PID;1-ONUTYPE;1-ONUID;2" key_replace = "OID;PID;ONUTYPE;ONUID;M">
+                <CommodResult>
+   A20937319 %{CurrentTime}%
+M  %{M}% COMPLD
+   EN=0   ENDESC=No Error
+    
+   totalrecord=1
+ 
+    list of MG port info
+   -----------------------------------------------------
+   MGID  OperState
+   1  Registering
+   -----------------------------------------------------
+;
+                </CommodResult> 
+       </Commond>
+      </Service>
+
+</Services>

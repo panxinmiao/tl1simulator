@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Services>
+
+     <Service>      	
+      	<Commond code = "CHG-PORT-STAT::" key_prams="1-DIP;1-PID" key_replace = "IP;PID">
+                <CommodResult>
+   zte %{CurrentTime}%
+M  1 COMPLD
+   EN=0   ENDESC=No Error
+;
+                </CommodResult>
+                <CommodResult>
+   zte %{CurrentTime}%
+M  1 COMPLD
+   EN=0   ENDESC=device does not exist (the onu does not exist)
+;
+                </CommodResult>
+      	</Commond>
+      </Service>
+
+</Services>

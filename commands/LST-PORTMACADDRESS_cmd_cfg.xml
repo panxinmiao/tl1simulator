@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Services>
+
+     <Service>
+        <Commond code = "LST-PORTMACADDRESS::" key_prams="1-OIP;1-OPT;2" key_replace = "OIP;OPT;M">
+                <CommodResult>
+   A20937319 %{CurrentTime}%
+M  %{M}% COMPLD
+   EN=0   ENDESC=No Error
+    
+   totalrecord=1
+ 
+  list of MAC Address
+   -----------------------------------------------------
+   VLAN  MAC
+   1  E0:05:C5:6E:10:61
+   -----------------------------------------------------
+;
+                </CommodResult> 
+       </Commond>
+       
+<Commond code = "LST-PORTMACADDRESS::" key_prams="1-OID;1-PID;1-ONUTYPE;1-ONUID;1-OPT;2" key_replace = "OID;PID;ONUTYPE;ONUID;OPT;M">
+                <CommodResult>
+   A20937319 %{CurrentTime}%
+M  %{M}% COMPLD
+   EN=0   ENDESC=No Error
+    
+   totalrecord=0
+   list of MAC Address
+   -----------------------------------------------------
+   VLAN  MAC
+   ----------------------------------------------------- 
+;
+                </CommodResult> 
+       </Commond>
+      </Service>
+
+</Services>

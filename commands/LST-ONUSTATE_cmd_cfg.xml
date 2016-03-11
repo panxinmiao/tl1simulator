@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Services>
+
+     <Service>
+        <Commond code = "LST-ONUSTATE::" key_prams="1-OID;1-PID;2" key_replace = "OID;PID;M">
+                <CommodResult>
+   A20937319 %{CurrentTime}%
+M  %{M}% COMPLD
+   EN=0   ENDESC=No Error
+    
+   totalrecord=8
+ 
+list of ONU state
+   -----------------------------------------------------
+   ONUID  AdminState  OperState  AUTH  AUTHINFO  ONUIP  LASTOFFTIME
+   1  UP  LOS  SN  ZTEG88880001  --  0000-00-00 00:00:00
+   3  UP  LOS  SN  ZTEG88880003  --  0000-00-00 00:00:00
+   30  UP  UP  SN  ZTEG88880011  --  0000-00-00 00:00:00
+   11  UP  UP  SN  ZTEG88880032  --  0000-00-00 00:00:00
+   51  UP  LOS  LOID  ZTEGC0583C08  --  0000-00-00 00:00:00
+   52  UP  LOS  SN  ZTEG88880052  --  2014-06-04 16:30:01
+   111  UP  LOS  SN  ZTEG00000001  --  0000-00-00 00:00:00
+   112  UP  LOS  SN  ZTEG77779999  --  0000-00-00 00:00:00
+   -----------------------------------------------------
+;
+                </CommodResult> 
+       </Commond>
+       <Commond code = "LST-ONUSTATE::" key_prams="1-OLTID;1-PID;1-ONUTYPE;1-ONUID;2" key_replace = "OID;PID;ONUTYPE;ONUID;M">
+                <CommodResult>
+   A20937319 %{CurrentTime}%
+M  %{M}% COMPLD
+  EN=0   ENDESC=No Error
+   
+   totalrecord=1
+ 
+   list of ONU state
+   -----------------------------------------------------
+   ONUID  AdminState  OperState  AUTH  AUTHINFO  ONUIP  LASTOFFTIME
+   11  UP  UP  SN  ZTEG88880011  --  0000-00-00 00:00:00
+   -----------------------------------------------------
+;
+                </CommodResult> 
+       </Commond>
+      </Service>
+
+</Services>

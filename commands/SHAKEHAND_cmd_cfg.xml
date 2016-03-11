@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Services>
+
+     <Service>      	
+      	<Commond code = "SHAKEHAND::" key_prams="2" key_replace = "M">
+                <CommodResult>
+   FH_10.235.133.73 %{CurrentTime}%
+M  %{M}% COMPLD
+   EN=0   ENDESC=Succeeded.
+   
+;
+                </CommodResult> 
+       </Commond>
+      </Service>
+
+</Services>

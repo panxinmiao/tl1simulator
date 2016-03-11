@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block body %}
+  {% for message in get_flashed_messages() %}
+    <div class="alert alert-success alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        {{ message }}
+    </div>
+  {% endfor %}
+  {% for entry in entries %}
+    <li><h2>{{ entry.title }}</h2>
+            {% for res in entry.text %}
+                <li><h4>{{res.match}}</h4><pre>{{res.text}}</pre></li>
+            {% else %}
+                Unbelievable.  No entries here so far
+            {% endfor %}
+  {% else %}
+    <li><em>Unbelievable.  No entries here so far</em></li>
+  {% endfor %}
+  </ul>
+{% endblock %}

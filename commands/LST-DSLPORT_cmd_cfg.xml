@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Services>
+
+     <Service>
+      	<Commond code = "LST-DSLPORT::" key_prams="1-OID;2" key_replace = "OID;M">
+                <CommodResult>
+
+   FH_10.235.133.73 %{CurrentTime}%
+M  %{M}% COMPLD
+		
+		block_records=1
+	
+Board perf information of the device
+---------------------------------------- 
+DID	FN	SN	PN
+7340033	0	1	1
+----------------------------------------
+
+;
+                </CommodResult>
+      	</Commond>       	
+      </Service>
+
+</Services>

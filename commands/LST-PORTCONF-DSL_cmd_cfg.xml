@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Services>
+
+     <Service>      	
+      	<Commond code = "LST-PORTCONF-DSL::" key_prams="1-DID;1-PID;2" key_replace = "DID;PID;M">
+                <CommodResult>
+   A23104451 %{CurrentTime}%
+M  %{M}% COMPLD
+   EN=0   ENDESC=No Error
+   
+   totalrecord=1
+   
+   Port attributes of the device %{DID}% %{PID}%
+   -----------------------------------------------------
+   DID  DIP  DNAME  PID  OPERSTATUS  ADMINSTATUS  LINEPROFILE  LINEALARMCONFPROFILE  LINETYPE  LINECODING  ACTUALTRANSMODE  DSTARGETSNRM  USTARGETSNRM  LINEPRF  CONFIGDATAPATHTYPE  ACTUALDATAPATHTYPE  EXTENDEDPRF  DSBITSWAPSTAT  USBITSWAPSTAT
+   %{DID}%  %{DID}%  name(%{DID}%)  %{PID}%  Offline  Enable  VDDRPDEFVAL.PRF|VUDRPDEFVAL.PRF  VDEFVAL.PRF  --  --  --  6  6  VDDRPDEFVAL.PRF|VUDRPDEFVAL.PRF|9935|VDPDEFVAL.PRF|VUPDEFVAL.PRF|6DB|16MS_4INP|VVNPDEFVAL.PRF|VRPDEFVAL.PRF|VSOSDEFVAL.PRF|VINMDEFVAL.PRF  AUTO  PTM  GINP  Enable  Enable
+   -----------------------------------------------------
+;
+                </CommodResult> 
+       </Commond>
+   </Service>
+
+</Services>

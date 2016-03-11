@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Services>
+
+     <Service>      	
+      	<Commond code = "LST-ALARM-FILTER::" key_prams="2" key_replace = "M">
+                <CommodResult>
+      A20937319 %{CurrentTime}%
+M  %{M}% COMPLD
+   EN=0   ENDESC=No Error
+   
+   totalrecord=1
+   
+   List of Alarm Filter Configuration
+   -----------------------------------------------------
+   ENABLE  SOURCETYPE  IP  TYPE  SEVERITY  REASON  BEGINTIME  ENDTIME  ALARMCODE
+   false  --  --  --  --  --  --  --  --
+   -----------------------------------------------------
+;
+                </CommodResult> 	
+     	  </Commond>  
+      </Service>
+
+</Services>

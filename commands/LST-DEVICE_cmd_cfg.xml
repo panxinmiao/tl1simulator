@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Services>
+
+     <Service>
+     	
+<Commond code = "LST-DEVICE::" key_prams="1-OID;2" key_replace = "OID;M">
+                <CommodResult>
+   FH_10.235.133.73 %{CurrentTime}%
+M  %{M}% COMPLD
+   EN=0   ENDESC=No Error
+   
+   block_records=1
+ 
+   List of Device Info
+   -----------------------------------------------------
+   DEVNAME  DEVIP  DT  DEVER  MEM  CPU  TEMPERATURE  CONNECTSTATUS
+  %{OID}%  %{OID}%  C300v1.0  V1.2.3P3  52  12  68  Connecting  
+   -----------------------------------------------------
+;
+                </CommodResult> 
+       </Commond>       
+
+      </Service>
+
+</Services>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Services>
+
+     <Service>
+      	<Commond code = "LST-VDSLINFO::" key_prams="1-ONUIP;2-ONUPORT;3" key_replace = "ONUIP;ONUPORT;M">
+                <CommodResult>
+
+   FH_10.235.133.73 %{CurrentTime}%
+M  %{M}% COMPLD
+
+   total_blocks=1
+   block_number=1
+   block_records=1
+
+list of vdsl port info
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+OPERSTATUS	ADMINSTATUS	INPDS	INPUS	RateModeDs	RateModeUs	ChannelTMode	MAXRATEUS	MINRATEUS	MAXRATEDS	MINRATEDS	INTVDELAYUS	INTVDELAYDS	TGTSNRMGNDS	MAXSNRMGNDS	MINSNRMGNDS	TGTSNRMGNUS	MAXSNRMGNUS	MINSNRMGNUS
+DOWN	DOWN	0.00	0.00	AutoAdaptAtStartup	AutoAdaptAtStartup	PTM	128000	64	128000	64	16	16	6.00	31.00	0.00	6.00	31.00	0.00
+----------------------------------------------------
+;
+                </CommodResult>
+      	</Commond>       	
+      </Service>
+
+</Services>

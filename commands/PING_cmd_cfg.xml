@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Services>
+
+     <Service>
+        <Commond code = "PING::" key_prams="1-OIP;2;3-IP" key_replace = "OIP;M;IP">
+                <CommodResult>
+   A20937319 %{CurrentTime}%
+M  %{M}% COMPLD
+   EN=0   ENDESC=No Error
+    
+   totalrecord=1
+ 
+   Ping from ONU
+   -----------------------------------------------------
+   TxPkts  RxPkts  LostPkts  LostPktRatio  MinDelay  MaxDelay  AvgDelay
+   3  3  0  0  0  30  13
+   -----------------------------------------------------
+;
+                </CommodResult> 
+       </Commond>
+       
+<Commond code = "PING::" key_prams="1-OID;1-PID;1-ONUTYPE;1-ONUID;2;3-IP" key_replace = "OID;PID;ONUTYPE;ONUID;M;IP">
+                <CommodResult>
+   A20937319 %{CurrentTime}%
+M  %{M}% COMPLD
+   EN=0   ENDESC=No Error
+    
+   totalrecord=1
+ 
+   Ping from ONU
+   -----------------------------------------------------
+   TxPkts  RxPkts  LostPkts  LostPktRatio  MinDelay  MaxDelay  AvgDelay
+   3  3  0  0  0  0  0
+   -----------------------------------------------------
+;
+                </CommodResult> 
+       </Commond>
+      </Service>
+
+</Services>

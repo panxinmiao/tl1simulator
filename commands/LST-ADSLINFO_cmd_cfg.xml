@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Services>
+
+     <Service>
+      	<Commond code = "LST-ADSLINFO::" key_prams="1-ONUIP;2-ONUPORT;3" key_replace = "ONUIP;ONUPORT;M">
+                <CommodResult>
+
+   FH_10.235.133.73 %{CurrentTime}%
+M  %{M}% COMPLD
+   
+   total_blocks=1
+   block_number=1
+   block_records=1
+
+list of adsl port info
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+OPERSTATUS	ADMINSTATUS	TM	LineType	AturRateMode	AtucRateMode	TGTSNRMGNDS	MAXSNRMGNDS	MINSNRMGNDS	TGTSNRMGNUS	MAXSNRMGNUS	MINSNRMGNUS	FASTMINRATEDS	FASTMAXRATEDS	FASTMINRATEUS	FASTMAXRATEUS	INTVMINRATEDS	INTVMAXRATEDS	INTVMINRATEUS	INTVMAXRATEUS	INTVDELAYDS	INTVDELAYUS
+DOWN	DOWN	3	Interleaved	AutoAdaptAtStartup	AutoAdaptAtStartup	6.00	32	31	6.00	31	0	0	100000	0	100000	0	100000	0	100000	16	16
+----------------------------------------------------
+;
+                </CommodResult>
+      	</Commond>       	
+      </Service>
+
+</Services>

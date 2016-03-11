@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Services>
+
+     <Service>
+        <Commond code = "LST-MGCFG::" key_prams="1-OIP;2" key_replace = "OIP;M">
+                <CommodResult>
+   A20937319 %{CurrentTime}%
+M  %{M}% COMPLD
+   EN=0   ENDESC=No Error
+    
+   totalrecord=1
+ 
+    list of MG port configuration
+   -----------------------------------------------------
+   MGID  PT  EID  SIPREGDM  SVLAN  VOIPVLAN  IPMODE  IPADDRESS  IPMASK  IPGATEWAY  PPPOEUSER  PPPOEPWD  SCOS  CCOS  MGCIP1  MGCIP2  HEARTBEATMODE  HEARTBEATCYCLE  HEARTBEATNUM
+   1  SIP  --  10.46.40.31  --  14  Static  10.46.41.85  255.255.255.0  10.46.41.1  --  --  --  --  --  --  Enable  --  --
+   -----------------------------------------------------
+;
+                </CommodResult> 
+       </Commond>
+       
+<Commond code = "LST-MGCFG::" key_prams="1-OID;1-PID;1-ONUTYPE;1-ONUID;2" key_replace = "OID;PID;ONUTYPE;ONUID;M">
+                <CommodResult>
+   A20937319 %{CurrentTime}%
+M  %{M}% COMPLD
+   EN=0   ENDESC=No Error
+    
+   totalrecord=1
+ 
+    list of MG port configuration
+   -----------------------------------------------------
+   MGID  PT  EID  SIPREGDM  SVLAN  VOIPVLAN  IPMODE  IPADDRESS  IPMASK  IPGATEWAY  PPPOEUSER  PPPOEPWD  SCOS  CCOS  MGCIP1  MGCIP2  HEARTBEATMODE  HEARTBEATCYCLE  HEARTBEATNUM
+   1  SIP  --  10.46.40.31  --  14  Static  10.46.41.85  255.255.255.0  10.46.41.1  --  --  --  --  --  --  Enable  --  --
+   -----------------------------------------------------
+;
+                </CommodResult> 
+       </Commond>
+      </Service>
+
+</Services>

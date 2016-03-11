@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Services>
+
+     <Service>
+      	<Commond code = "LST-DEVINFO::" key_prams="1-OLTID;1-PID;1-ONUTYPE;1-ONUID;2" key_replace = "OLTID;PID;ONUTYPE;ONUID;M">
+                <CommodResult>
+   A20937319 %{CurrentTime}%
+M  %{M}% COMPLD
+   EN=0   ENDESC=No Error
+   
+   totalrecord=1
+ 
+   List of Device Info
+   -----------------------------------------------------
+   DEVNAME  DEVIP  DT  DEVER  MEM  CPU  TEMPERATURE
+   5ZTE-F821  10.46.41.85  F821  V1.2.0P1  55  6  40
+   -----------------------------------------------------
+;
+                </CommodResult> 
+       </Commond>  
+<Commond code = "LST-DEVINFO::" key_prams="1-OID;2" key_replace = "OID;M">
+                <CommodResult>
+   A20937319 %{CurrentTime}%
+M  %{M}% COMPLD
+   EN=0   ENDESC=No Error
+   
+   totalrecord=1
+ 
+   List of Device Info
+   -----------------------------------------------------
+   DEVNAME  DEVIP  DT  DEVER  MEM  CPU  TEMPERATURE
+  %{OID}%  %{OID}%  C300v1.0  V1.2.3P3  52  12  68
+   -----------------------------------------------------
+;
+                </CommodResult> 
+       </Commond>       
+<Commond code = "LST-DEVINFO::" key_prams="1-OIP;2" key_replace = "OIP;M">
+                <CommodResult>
+  A20937319 %{CurrentTime}%
+M  %{M}% COMPLD
+   EN=0   ENDESC=No Error
+   
+   totalrecord=1
+ 
+   List of Device Info
+   -----------------------------------------------------
+   DEVNAME  DEVIP  DT  DEVER  MEM  CPU  TEMPERATURE
+   5ZTE-F821  %{OIP}%  F821  V1.2.0P1  55  7  39
+   -----------------------------------------------------
+;
+                </CommodResult> 
+       </Commond>
+
+
+
+      </Service>
+
+</Services>

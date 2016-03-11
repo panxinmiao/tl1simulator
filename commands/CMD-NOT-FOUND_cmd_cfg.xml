@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Services>
+
+     <Service>      	
+      	<Commond code = "CMD-NOT-FOUND::" key_prams="" key_replace = "">
+                <CommodResult>
+   NM-10056900-10 %{CurrentTime}%
+M  128 DENY
+   PICC
+   "ILLEGAL COMMAND CODE"
+;
+                </CommodResult>              
+      	</Commond>      	      		
+   </Service>
+
+</Services>

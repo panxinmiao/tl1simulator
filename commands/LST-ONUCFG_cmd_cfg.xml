@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Services>
+
+     <Service>
+         
+   <Commond code = "LST-ONUCFG::" key_prams="1-OIP;2" key_replace = "OIP;M">
+                <CommodResult>
+   A20937319 %{CurrentTime}%
+M  %{M}% COMPLD
+   EN=0   ENDESC=No Error
+    
+   totalrecord=1
+ 
+   list of ONU configuration
+   -----------------------------------------------------
+   AdminState  OperState  AUTHTYPE  ONUID  Length  UsFixedBw  UsAssuredBw  UsMaxBw  DsMaxBw
+   UP  UP  MAC  00-10-D0-37-E0-44  0.173  0  10  100  100
+   -----------------------------------------------------
+;
+                </CommodResult> 
+       </Commond>
+       
+   <Commond code = "LST-ONUCFG::" key_prams="1-OID;1-PID;1-ONUTYPE;1-ONUID;2" key_replace = "OID;PID;ONUTYPE;ONUID;M">
+                <CommodResult>
+   A20937319 %{CurrentTime}%
+M  %{M}% COMPLD
+   EN=0   ENDESC=No Error
+    
+   totalrecord=1
+ 
+   list of ONU configuration
+   -----------------------------------------------------
+   AdminState  OperState  AUTHTYPE  ONUID  Length  UsFixedBw  UsAssuredBw  UsMaxBw  DsMaxBw
+   UP  UP  MAC  00-10-D0-37-E0-44  0.173  0  10  100  100
+   -----------------------------------------------------
+;
+                </CommodResult> 
+       </Commond>
+      </Service>
+
+</Services>
